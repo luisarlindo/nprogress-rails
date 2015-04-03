@@ -28,7 +28,7 @@
     barSelector: '[role="bar"]',
     spinnerSelector: '[role="spinner"]',
     parent: 'body',
-    template: '<div class="page-loading-overlay"><div class="loader-2" role="spinner"></div></div>'
+    template: '<div class="bar" role="bar"><div class="peg"></div></div><div class="spinner"><div class="spinner-icon"></div></div><div class="page-loading-overlay"><div class="loader-2" role="spinner"></div></div>'
   };
 
   /**
