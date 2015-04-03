@@ -28,7 +28,7 @@
     barSelector: '[role="bar"]',
     spinnerSelector: '[role="spinner"]',
     parent: 'body',
-    template: '<div class="bar" role="bar"><div class="peg"></div></div><div class="spinner"><div class="spinner-icon"></div></div><div class="page-loading-overlay"><div class="loader-2" role="spinner"></div></div>'
+    template: '<div class="page-loading-overlay"></div><div class="load_circle_wrapper"><div class="loading_spinner"><div id="wrap_spinner"><md-progress-circular class="md-hue-2 md-default-theme" md-mode="indeterminate" aria-valuemin="0" aria-valuemax="100" role="progressbar" style="-webkit-transform: scale(1);"><div class="md-spinner-wrapper"><div class="md-inner"><div class="md-gap"></div><div class="md-left"><div class="md-half-circle"></div></div><div class="md-right"><div class="md-half-circle"></div></div></div></div></md-progress-circular></div></div></div>'
   };
 
   /**
